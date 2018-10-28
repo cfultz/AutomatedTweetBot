@@ -1,3 +1,6 @@
+### This file is esientially a copy of the one found in the Mastodon.py 
+# documentation. Will work to clean this up and make it a bit better
+
 ### secure way to deliever the goods
 
 import sys, time
