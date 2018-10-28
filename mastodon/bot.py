@@ -13,7 +13,7 @@
 
 import time, sys
 from mastodon import Mastodon
-from mascreds import *
+from secrets import *
 
 argfile = str(sys.argv[1]) # You will need to pass a .txt file as an argument
 
