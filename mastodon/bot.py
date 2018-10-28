@@ -15,12 +15,15 @@ import time, sys
 from mastodon import Mastodon
 from secrets import *
 
-argfile = str(sys.argv[1]) # You will need to pass a .txt file as an argument
+argfile = str(sys.argv[1]) # Allows you to pass the text file for tooting
 
+
+# Sets up the file
 filename=open(argfile,'r')
 f=filename.readlines()
 filename.close()
 
+# For every line in the file, create a single toot
 for line in f:
 	mastodon.toot(line)
 	time.sleep(3600) #Toot every 1 hour for rate limiting
