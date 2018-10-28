@@ -3,14 +3,14 @@ Python based Twitter and Mastodon bot that allows you to Tweet and Toot anything
 
 Uses Tweepy and Mastodon.py as well as Python 3
 
-#### To Install
+## To Install
 - apt install python3 (or variant for your chosen OS)
 - pip3 install tweepy
 - pip3 install mastodon.py
 - git clone https://github.com/cfultz/automatedtweetbot.git
 
 
-### Use
+## Use
 - Install python3 and pips on your selected platform
 - Apply for dev account on Twitter/Visit API on Mastodon
 - Fill secrets.py with your app creds
@@ -19,7 +19,7 @@ Uses Tweepy and Mastodon.py as well as Python 3
 
 
 
-### Contact
+## Contact
 ##### Email 
 caleb@dpkg.info
 ##### Twitter
@@ -29,11 +29,11 @@ caleb@dpkg.info
 
 
 
-### Current bots that use our script
+## Current bots that use our script
 
-### GruntyBot
+##### GruntyBot
 [@GruntyBot on Twitter](https://twitter.com/gruntybot)
 [@GruntyBot on Mastodon.cloud](https://mastodon.cloud/@gruntybot)
 
-### AHS_Script
+##### AHS_Script
 [@AHS_Script on Twitter](https://twitterr.com/ahs_script)
