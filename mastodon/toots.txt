@@ -1,0 +1,5 @@
+Here are your toots!
+They can literally be anything you want them to be!
+Links and text only however.
+Just rememeber that it can only toot one line at a time.
+And your lines cannot be identical to the last or some Mastodon nodes get mad and kills the script.
