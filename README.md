@@ -20,14 +20,9 @@ Uses Tweepy and Mastodon.py as well as Python 3
 
 
 ## Contact
-##### Email 
-caleb@dpkg.info
-##### Twitter
-@cfultz
-##### Mastodon
-@cfultz@mastodon.cloud
-
-
+- [caleb@dpkg.info](mailto:caleb@dpkg.info?subject=Github%20AutomatedTweetBot%20Question)
+- [@cfultz Twitter](https://twitter.com/cfultz)
+- [@cfultz on Mastodon.cloud](https://mastodon.cloud/@cfultz)
 
 ## Current bots that use our script
 
