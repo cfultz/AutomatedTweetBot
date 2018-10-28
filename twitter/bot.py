@@ -12,8 +12,11 @@
 import tweepy, time, sys
 from secrets import *
 
-argfile = str(sys.argv[1]) # You will need to pass a .txt file as an argument i$
+argfile = str(sys.argv[1]) # This allows for you to pass the text file of your choosing through to tweet each line
 
+##
+## From Tweepy OAuth documentation
+##
 #create an OAuthHandler instance
 # Twitter requires all requests to use OAuth for authentication
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -23,9 +26,13 @@ auth.set_access_token(access_token, access_secret)
  #Construct the API instance
 api = tweepy.API(auth) # create an API object
 
+# Allows the file to be parsed
+
 filename=open(argfile,'r')
 f=filename.readlines()
 filename.close()
+
+# For every line in the file, process it as a status update.
 
 for line in f:
     api.update_status(status=line)
