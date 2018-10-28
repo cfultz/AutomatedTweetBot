@@ -26,3 +26,14 @@ caleb@dpkg.info
 @cfultz
 ##### Mastodon
 @cfultz@mastodon.cloud
+
+
+
+### Current bots that use our script
+
+### GruntyBot
+[@GruntyBot on Twitter](https://twitter.com/gruntybot)
+[@GruntyBot on Mastodon.cloud](https://mastodon.cloud/@gruntybot)
+
+### AHS_Script
+[@AHS_Script on Twitter](https://twitterr.com/ahs_script)
