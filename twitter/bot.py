@@ -38,7 +38,7 @@ def set_auth():
 argfile = str(sys.argv[1]) 
 if not argfile:
     print('Expected input file as system argument, exiting')
-    return SystemExit
+    SystemExit
 
 auth = set_auth()
 # If you haven't run this before or have not set the valid info, you will be
@@ -59,8 +59,8 @@ if not auth:
 api = tweepy.API(auth) 
 
 # Parse the given file
-with open(argfile,'r') as f:
-    f=filename.readlines()
+with open(argfile,'r') as f1:
+    f=f1.readlines()
 
 # For every line in the file, process it as a status update.
 for line in f:
